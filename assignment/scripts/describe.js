@@ -165,7 +165,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
-  //"no entry" should be for the else statement, because "enter" should show on the consol when the age is greater than or equal to the minAge
+  //"no entry" should be for the else statement, because "enter" should show on the console when the age is greater than or equal to the minAge
   console.log('no entry');
 } else {
   console.log('enter');
