@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Name is set to "Dane".
+// If the name is set to Mary the console will say "Hi, Mary!"
+// If the name isnt set to Mary the console will say "How do you do?"
+// The name is not set to Mary so the console will read "How do you do?"
 
 //CODE
 /*
@@ -45,8 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// Because code is equal to 123 the console will output super
+// Since 123 * 2 is less than 250 the console will not output duper for the secret variable.
 // 
 //
 
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Since the zipcode is less than 80000 the console will not output "Youre a student on the west coast"
+// Since isStudent = true the console will not output "What are your hobbies?"
+// Since isStudent = true the console will output "Welcome to Prime!"
+// The console will not output "How about the weather?" because the previous statement was true. 
 
 //CODE
 /*
@@ -130,12 +130,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// colorOne should equal blue and colorTwo should equal red
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //colorTwo should equal purple as well,
+  //colorTwo = 'purple';
 }
 */
 
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//There should be && instead of || because both statements need to be true instead of just 1
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -161,6 +165,7 @@ let age = 21;
 const minAge = 21;
 
 if(minAge <= age) {
+  //"no entry" should be for the else statement, because "enter" should show on the consol when the age is greater than or equal to the minAge
   console.log('no entry');
 } else {
   console.log('enter');
